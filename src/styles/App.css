@@ -24,21 +24,22 @@ body, html {
 
 .content-wrapper {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: flex-start;
+  flex-direction: column; /* Stack elements vertically on mobile */
+  align-items: center; /* Center content horizontally */
+  text-align: justify; /* stretches the lines so that each line has equal width*/
 }
 
-.content-wrapper p {
-  flex: 1;
-  max-width: 50%; /* Adjust as needed */
-  padding: 0 20px; /* Adjust as needed */
+.content-wrapper p,
+.content-wrapper img {
+  width: 100%; /* Ensure elements take full width on mobile */
+  max-width: 100%; /* Ensure images don't overflow on smaller screens */
+  margin-bottom: 20px; /* Add spacing between elements */
 }
 
 .content-wrapper img {
-  flex: 1;
-  max-width: 50%; /* Adjust as needed */
+  border-radius: 10px; /* Optional: Add rounded corners to images */
 }
+
 
 .navbar {
   display: flex;
@@ -184,5 +185,26 @@ body, html {
 
   .section2 p, .section2 img, .section3 a {
     font-size: 16px;
+  }
+}
+
+/* Media query for desktop */
+@media (min-width: 768px) {
+  .content-wrapper {
+    flex-direction: row; /* Arrange elements side by side */
+    justify-content: center; /* Center elements horizontally */
+    text-align: justify;
+  }
+
+  .content-wrapper p,
+  .content-wrapper img {
+    width: auto; /* Reset width to auto for desktop */
+    max-width: 50%; /* Set maximum width for paragraphs and images */
+    margin-right: 20px; /* Add spacing between elements */
+    margin-bottom: 0; /* Remove bottom margin for paragraphs */
+  }
+
+  .content-wrapper img:last-child {
+    margin-right: 0; /* Remove margin for the last image */
   }
 }
