@@ -1,18 +1,26 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom'; // Import the Link component
 
-function Navbar() {
+const Navbar = () => {
   return (
     <nav className="navbar">
-      <div className="logo">Penrith to Pyrmont Walk</div>
+      <div className="logo">
+        <img src="/penrith-pyrmont-logo-1.png" alt="Logo" /> 
+      </div>
       <ul className="nav-links">
-        <li><Link to="/">Home</Link></li>
-        <li><Link to="/about">About</Link></li>
-        <li><Link to="/contact">Contact</Link></li>
+        {/* Example navigation links */}
+        <li>
+          <Link to="/">Home</Link>
+        </li>
+        <li>
+          <Link to="/about">About</Link>
+        </li>
+        <li>
+          <Link to="/contact">Contact</Link>
+        </li>
       </ul>
     </nav>
   );
 }
 
 export default Navbar;
-

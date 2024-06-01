@@ -8,6 +8,7 @@ body, html {
   height: 100%;
   font-family: Arial, sans-serif;
   background-color: #f0f0f0;
+  margin: 0; /* Remove default body margin */
 }
 
 /* Centering content with Flexbox */
@@ -18,12 +19,12 @@ body, html {
   flex-direction: column;
   min-height: 100vh; /* Full viewport height */
   text-align: center; /* Center text inside the container */
-
+  padding: 20px;
 }
 
 .navbar {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
   background-color: #4CAF50;
   padding: 10px 20px;
@@ -48,6 +49,11 @@ body, html {
 
 .navbar .nav-links li {
   margin-left: 20px;
+}
+
+.navbar .nav-links li:first-child {
+  margin-left: 0; /* Remove left margin for the first link */
+  
 }
 
 .navbar .nav-links li a {
@@ -116,11 +122,16 @@ body, html {
   bottom: 0;
 }
 
+
 /* Responsive design */
 @media (max-width: 768px) {
-  .navbar .nav-links {
+  .navbar {
     flex-direction: column;
     align-items: center;
+  }
+
+  .navbar .nav-links {
+    margin-top: 20px; /* Adjust the spacing between logo and links */
   }
 
   .navbar .nav-links li {
