@@ -1,4 +1,4 @@
-/* Reset some basic styles */
+
 * {
   margin: 0;
   padding: 0;
@@ -17,7 +17,7 @@ body, html {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  height: 100vh; /* Full viewport height */
+  min-height: 100vh; /* Full viewport height */
   text-align: center; /* Center text inside the container */
   padding: 20px;
 }
@@ -28,6 +28,10 @@ body, html {
   align-items: center;
   background-color: #4CAF50;
   padding: 10px 20px;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 1000; /* Ensures navbar is on top */
 }
 
 .navbar .logo {
@@ -140,3 +144,4 @@ body, html {
     font-size: 16px;
   }
 }
+

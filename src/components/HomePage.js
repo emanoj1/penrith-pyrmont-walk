@@ -12,7 +12,7 @@ function HomePage() {
       </section>
       <section className="section2">
         <p>Come and enjoy a wonderful day walk from Penrith to Pyrmont. This walk will take you through some of the most beautiful landscapes in the region.</p>
-        <img src="/route-map.jpg" alt="Route Map" />
+        <img src="/penrith-pyrmont-walk-route-map.png" alt="Route Map" />
         <p>Start Location: Penrith</p>
         <p>End Location: Pyrmont</p>
       </section>
