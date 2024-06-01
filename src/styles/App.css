@@ -40,6 +40,10 @@ body, html {
   border-radius: 10px; /* Optional: Add rounded corners to images */
 }
 
+.highlight-text {
+  color: #3c99f6;
+  font-weight: bolder;
+}
 
 .navbar {
   display: flex;
