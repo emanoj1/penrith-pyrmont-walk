@@ -108,8 +108,26 @@ body, html {
 }
 
 .section3 {
-  background-color: #f9fafb;
+  background-color: #fcd34d;
 }
+
+.section3 {
+  padding-top: 20px; /* Add padding to the top of the section */
+}
+
+.content-wrapper {
+  padding-bottom: 20px; /* Add padding to the bottom of the content wrapper */
+}
+
+.section3 a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #3c99f6;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
 
 .section1 h1 {
   color: #333;
@@ -124,15 +142,6 @@ body, html {
 .section2 p {
   color: #000000;
   font-size: 18px;
-}
-
-.section3 a {
-  display: inline-block;
-  padding: 10px 20px;
-  background-color: #4CAF50;
-  color: white;
-  text-decoration: none;
-  border-radius: 5px;
 }
 
 .footer {
