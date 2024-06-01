@@ -22,6 +22,25 @@ body, html {
   padding: 20px;
 }
 
+.content-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.content-wrapper p {
+  flex: 1;
+  max-width: 50%; /* Adjust as needed */
+  padding: 0 20px; /* Adjust as needed */
+}
+
+.content-wrapper img {
+  flex: 1;
+  max-width: 50%; /* Adjust as needed */
+}
+
+
 .navbar {
   display: flex;
   justify-content: space-evenly;
