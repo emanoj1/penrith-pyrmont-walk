@@ -40,7 +40,6 @@ body, html {
   max-width: 50%; /* Adjust as needed */
 }
 
-
 .navbar {
   display: flex;
   justify-content: space-evenly;
@@ -93,7 +92,7 @@ body, html {
 
 .section2 {
   background-color: #ffffff;
-  color: rgb(15, 14, 14);
+  color: #333;
   margin-left: -20px; /* Offset the left margin to align with section 1 */
   margin-right: -20px; /* Offset the right margin to align with section 3 */
 }
@@ -109,12 +108,12 @@ body, html {
 
 .section1 h1 {
   color: #333;
-  font-size: 36px;
+  font-size: 50px;
 }
 
 .section1 h2 {
   color: #666;
-  font-size: 24px;
+  font-size: 35px;
 }
 
 .section2 p {
@@ -141,6 +140,19 @@ body, html {
   bottom: 0;
 }
 
+.start-point {
+  background-color: #28a745; /* Green color for starting point */
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: white;
+}
+
+.finish-point {
+  background-color: #dc3545; /* Red color for finishing point */
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: white;
+}
 
 /* Responsive design */
 @media (max-width: 768px) {

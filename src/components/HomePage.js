@@ -4,9 +4,10 @@ function HomePage() {
   return (
     <div className="centered-container">
       <section className="section1">
-        <h1>2024 is now open!</h1>
-        <h2>15 hrs! 65 km!</h2>
-        <p>25th June 2024</p>
+        <h1>15 hrs! 65 km!</h1>
+        <h2>Saturday, 31 August 2024</h2>
+        <br></br>
+        <p>Year 1 - Launch walk!</p>
         <br></br>
         <p>Start Time: 5:00 AM</p>
         <p>Finish Time: 8:00 PM</p>
@@ -21,8 +22,12 @@ function HomePage() {
           </p>
         </div>
         <img src="/penrith-pyrmont-walk-route-map.png" alt="Route Map" />
-        <p>Start Location: Penrith</p>
-        <p>End Location: Pyrmont</p>
+        <p>The planned route map for the Penrith to Pyrmont Walk</p>
+        <br></br>
+        <p>
+          <span className="start-point">START: Penrith Station </span>
+          <span className="finish-point">FINISH: Pyrmont Bridge </span>
+        </p>
       </section>
       <section className="section3">
         <a href="/contact">Sign up for the walk</a>
