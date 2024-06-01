@@ -1,8 +1,7 @@
-
+/* Reset some basic styles */
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 body, html {
@@ -19,7 +18,7 @@ body, html {
   flex-direction: column;
   min-height: 100vh; /* Full viewport height */
   text-align: center; /* Center text inside the container */
-  padding: 20px;
+
 }
 
 .navbar {
@@ -58,17 +57,20 @@ body, html {
 }
 
 /* Section styles */
+.section1, .section2, .section3 {
+  width: 100%;
+  padding: 20px;
+}
+
 .section1 {
   background-color: #fcd34d;
-  padding: 20px;
-  width: 100%;
 }
 
 .section2 {
   background-color: #111827;
-  padding: 20px;
-  width: 100%;
   color: white;
+  margin-left: -20px; /* Offset the left margin to align with section 1 */
+  margin-right: -20px; /* Offset the right margin to align with section 3 */
 }
 
 .section2 img {
@@ -78,8 +80,6 @@ body, html {
 
 .section3 {
   background-color: #f9fafb;
-  padding: 20px;
-  width: 100%;
 }
 
 .section1 h1 {
@@ -144,4 +144,3 @@ body, html {
     font-size: 16px;
   }
 }
-
