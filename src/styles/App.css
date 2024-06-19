@@ -22,6 +22,7 @@ body, html {
   
 }
 
+/* Content wrapper for consistent alignment */
 .content-wrapper {
   display: flex;
   flex-direction: column; /* Stack elements vertically on mobile */
@@ -127,6 +128,7 @@ body, html {
   background-color: white;
 }
 
+/* Styling for section 3 to add bottom padding */
 .section3 {
   padding-top: 20px; /* Add padding to the top of the section */
 }
@@ -135,13 +137,20 @@ body, html {
   padding-bottom: 20px; /* Add padding to the bottom of the content wrapper */
 }
 
+/* Styling for section 3 to add bottom padding */
+.section3 {
+  padding-bottom: 40px; /* Add padding to the bottom of section 3 */
+}
+
 .section3 a {
   display: inline-block;
+  margin-top: 20px;
   padding: 10px 20px;
   background-color: #3c99f6;
   color: white;
   text-decoration: none;
   border-radius: 5px;
+  margin-bottom: 20px; /* Ensure spacing between the link and the footer */
 }
 
 
@@ -155,6 +164,7 @@ body, html {
   font-size: 35px;
 }
 
+/* General styling for section content */
 .section2 p {
   color: #000000;
   font-size: 18px;
