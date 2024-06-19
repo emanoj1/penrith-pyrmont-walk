@@ -41,9 +41,14 @@ body, html {
 }
 
 .highlight-text {
-  color: #3c99f6;
+  background: linear-gradient(90deg, #1af9a0, #f15d27); /* Define your gradient colors here */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
   font-weight: bolder;
 }
+
 
 .navbar {
   display: flex;
