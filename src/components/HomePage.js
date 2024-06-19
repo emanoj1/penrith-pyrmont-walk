@@ -33,6 +33,8 @@ function HomePage() {
         <img src="/penrith-pyrmont-walk-route-map.png" alt="Route Map" className="route-map"/>
       </section>
       <section className="section3">
+        <h1>Join the walk!</h1>
+        <br></br>
       <div className="content-wrapper">
           <p>If you are interested to undertake this mega-walk, please submit your interest and we will contact you with confirmations and next steps.
           <span class="highlight-text"> You have to be over the age of 18 and medically fit to participate.</span>
