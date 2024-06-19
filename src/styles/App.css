@@ -19,7 +19,7 @@ body, html {
   flex-direction: column;
   min-height: 100vh; /* Full viewport height */
   text-align: center; /* Center text inside the container */
-  padding: 20px;
+  
 }
 
 .content-wrapper {
@@ -51,13 +51,22 @@ body, html {
   align-items: center;
   background-color: #ffffff;
   padding: 10px 20px;
-  position: sticky;
+  position: relative;
+  color: white;
   top: 0;
   width: 100%;
   z-index: 1000; /* Ensures navbar is on top */
 }
 
-
+/* Styling for the logo */
+.logo {
+  max-width: 100px; /* Adjust the max-width as needed */
+  max-height: 100px; /* Adjust the max-height as needed */
+  height: auto; /* Maintain aspect ratio */
+  width: auto; /* Maintain aspect ratio */
+  padding: 5px; /* Optional: add padding if needed */
+  margin: 0 10px; /* Optional: add margin if needed */
+}
 
 .navbar .logo {
   color: white;
