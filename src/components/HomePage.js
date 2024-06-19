@@ -4,12 +4,14 @@ function HomePage() {
   return (
     <div className="centered-container">
       <section className="section1">
-        <h1>15 hrs! 65 km!</h1>
-        <h2>Saturday, 31 August 2024</h2>
+        <h1>Penrith - Pyrmont Walk</h1>
+        <h2>15 hrs, 65 km, 2 days</h2>
+        <h2>Penrith - Parramatta (day 1) + Parramatta - Pyrmont (day 2)</h2>
+        
         <br></br>
         <p>
-        <span className="start-point">START: 5 AM </span>
-        <span className="finish-point">FINISH: 8 PM </span>
+        <span className="start-point">Saturday, 07 September</span>
+        <span className="finish-point">Sunday, 08 September 2024</span>
         </p>
       </section>
       <section className="section2">
