@@ -170,16 +170,26 @@ body, html {
   bottom: 0;
 }
 
+/* Add some margin to the image to avoid overlapping */
+.route-map {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 20px auto; /* Center the image by setting left and right margins to auto */
+  
+}
+
 .start-point {
   background-color: #1AE6C1; /* Green color for starting point */
-  padding: 5px 10px;
+  padding: 5px 15px;
   border-radius: 5px;
   color: white;
+  margin-right: 10px;
 }
 
 .finish-point {
   background-color: #d65764; /* Red color for finishing point */
-  padding: 5px 10px;
+  padding: 5px 15px;
   border-radius: 5px;
   color: white;
 }

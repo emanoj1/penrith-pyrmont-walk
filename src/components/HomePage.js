@@ -22,14 +22,15 @@ function HomePage() {
             joy of walking, this trail promises an unforgettable experience. Also, this is <span class="highlight-text">YEAR 1 of the walk!!</span> So, lace up your shoes, breathe in the fresh air, 
             and <span class="highlight-text">be a part of history</span> as you embark on this remarkable journey from Penrith to Pyrmont.
           </p>
+          
         </div>
-        <img src="/penrith-pyrmont-walk-route-map.png" alt="Route Map" />
         <p>The planned route map for the Penrith to Pyrmont Walk</p>
         <br></br>
         <p>
           <span className="start-point">START: Penrith Station </span>
           <span className="finish-point">FINISH: Pyrmont Bridge </span>
         </p>
+        <img src="/penrith-pyrmont-walk-route-map.png" alt="Route Map" className="route-map"/>
       </section>
       <section className="section3">
       <div className="content-wrapper">
