@@ -57,6 +57,8 @@ body, html {
   z-index: 1000; /* Ensures navbar is on top */
 }
 
+
+
 .navbar .logo {
   color: white;
   font-size: 24px;
