@@ -16,7 +16,7 @@ function HomePage() {
       </section>
       <section className="section2">
         <div className="content-wrapper">
-          <p>Embark on an invigorating journey of health and wellness with the Penrith to Pyrmont walk, 
+          <p>Embark on an invigorating journey of health and wellness with the Penrith to Pyrmont walk (Sydney,Australia), 
             a scenic adventure spanning 65 kilometers and taking approximately 15 hours to complete. Designed for the health-conscious and enthusiasts of outdoor exploration, 
             this exhilarating trek traverses major suburbs, picturesque parks, and iconic landmarks. Whether you're seeking to maintain peak fitness or simply revel in the 
             joy of walking, this trail promises an unforgettable experience. Also, this is <span class="highlight-text">YEAR 1 of the walk!!</span> So, lace up your shoes, breathe in the fresh air, 
