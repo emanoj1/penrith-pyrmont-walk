@@ -74,6 +74,12 @@ body, html {
   margin: 0 10px; /* Optional: add margin if needed */
 }
 
+/* Additional styling for the navbar logo container */
+.navbar-logo {
+  display: flex;
+  align-items: center;
+}
+
 .navbar .logo {
   color: white;
   font-size: 24px;
