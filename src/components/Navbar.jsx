@@ -11,7 +11,6 @@ const Navbar = () => {
         </Link>
       </div>
       <ul className="nav-links">
-        {/* Example navigation links */}
         <li>
           <Link to="/">Home</Link>
         </li>

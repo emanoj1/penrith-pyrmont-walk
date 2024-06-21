@@ -10,7 +10,7 @@ function HomePage() {
         
         <br></br>
         <p>
-        <span className="start-point">Saturday, 07 September</span>
+        <span className="start-point">Saturday, 07 September 2024</span>
         <span className="finish-point">Sunday, 08 September 2024</span>
         </p>
       </section>
