@@ -1,0 +1,152 @@
+/* Navbar Styles */
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 10px 20px;
+    width: 100%;
+    z-index: 1000; /* Ensures navbar is on top */
+  }
+  
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px; /* Set a max-width for the navbar container */
+  }
+  
+  /* Styling for the logo */
+  .navbar-logo .logo-link {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    max-width: 100px; /* Adjust the max-width as needed */
+    max-height: 100px; /* Adjust the max-height as needed */
+    height: auto; /* Maintain aspect ratio */
+    width: auto; /* Maintain aspect ratio */
+    padding: 5px; /* Optional: add padding if needed */
+    margin: 0 10px; /* Optional: add margin if needed */
+  }
+  
+  /* Styling for the navbar logo container */
+  .navbar-logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar .nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar .nav-links li {
+    margin-left: 20px;
+  }
+  
+  .navbar .nav-links li:first-child {
+    margin-left: 0; /* Remove left margin for the first link */
+  }
+  
+  .navbar .nav-links li a {
+    color: rgb(6, 5, 5);
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .navbar {
+      justify-content: space-between; /* Space between logo and hamburger */
+    }
+  
+    .navbar-container {
+      flex-direction: row;
+      align-items: center;
+      width: 100%;
+    }
+  
+    .navbar .nav-links {
+      flex-direction: column; /* Stack links vertically */
+      margin-top: 10px; /* Adjust the spacing between logo and links */
+      background-color: #ffffff; /* White background for visibility */
+      width: 100%;
+      display: none; /* Hidden by default */
+      position: absolute;
+      top: 60px; /* Adjust based on navbar height */
+      left: 0;
+      right: 0;
+    }
+  
+    .navbar .nav-links.active {
+      display: flex; /* Display when active */
+      justify-content: center; /* Center items horizontally */
+    }
+  
+    .navbar .nav-links li {
+      margin-left: 0;
+      margin-bottom: 10px;
+      text-align: center; /* Center text for mobile */
+    }
+  
+    .navbar .nav-links li a {
+      text-decoration: none; /* Remove underline */
+      padding: 10px 20px; /* Add padding for touch targets */
+      display: block; /* Full width clickable area */
+      color: rgb(6, 5, 5); /* Ensure text color is visible */
+    }
+  
+/* Hamburger Menu */
+.hamburger {
+    cursor: pointer;
+    display: block; /* Ensure it's a block element */
+    position: relative;
+    z-index: 1001; /* Ensure it's above other content */
+    margin-right: 20px; /* Add some right margin for spacing */
+  }
+  
+  /* Style the hamburger lines */
+  .hamburger div {
+    width: 25px; /* Adjust width of lines */
+    height: 3px; /* Height of lines */
+    background-color: #000000; /* Black color for lines */
+    margin: 5px auto; /* Center the lines vertically and add margin between them */
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+  }
+  
+  /* Hamburger menu background color when active */
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    background-color: #ffffff; /* Initial background color of the menu box */
+    position: absolute;
+    top: 60px; /* Adjust based on navbar height */
+    left: 0;
+    right: 0;
+    z-index: 1000; /* Ensure menu box is above other content */
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+  }
+  
+  .nav-links.active {
+    display: flex; /* Display when active */
+    background-color: #1AE6C1; /* Background color when menu is expanded */
+  }
+  
+  .nav-links li {
+    margin-left: 0;
+    margin-bottom: 10px;
+  }
+  
+  .nav-links li a {
+    text-decoration: none; /* Remove underline */
+    padding: 10px 20px; /* Add padding for touch targets */
+    display: block; /* Full width clickable area */
+    color: #000000; /* Black text color */
+  }
+}

@@ -1,28 +1,38 @@
-import React from 'react';
-import { Link } from 'react-router-dom'; // Import the Link component
-
+import React, { useState } from 'react';
+import '../styles/Navbar.css'
 
 const Navbar = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
+  };
+
   return (
     <nav className="navbar">
-      <div className="navbar-logo">
-        <Link to="/">
-          <img src="/p-logo-1AE6C1-ppwalk.png" alt="Logo" className="logo navbar-logo" />
-        </Link>
+      <div className="navbar-container">
+        <div className="navbar-logo">
+          <a href="/" className="logo-link">
+            <img src="/p-logo-1AE6C1-ppwalk.png" alt="Logo" className="logo" />
+          </a>
+        </div>
+        <div className="hamburger" onClick={toggleMenu}>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+        <ul className={`nav-links ${isOpen ? 'active' : ''}`}>
+          <li><a href="/">Home</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
       </div>
-      <ul className="nav-links">
-        <li>
-          <Link to="/">Home</Link>
-        </li>
-        <li>
-          <Link to="/about">About</Link>
-        </li>
-        <li>
-          <Link to="/contact">Contact</Link>
-        </li>
-      </ul>
     </nav>
   );
-}
+};
 
 export default Navbar;
+
+
+
+
