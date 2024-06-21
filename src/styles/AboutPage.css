@@ -22,6 +22,12 @@
     font-size: 1em;
     color: #333;
   }
+
+  .profile-image {
+    width:20%;
+    height:50%;
+    padding:2% ;
+  }
   
-  /* Additional styling as needed */
+
   

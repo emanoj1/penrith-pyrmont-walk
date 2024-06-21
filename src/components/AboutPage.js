@@ -74,6 +74,7 @@ const AboutPage = () => {
           </p>
 
           <h4>Who is the creator of this event?</h4>
+          <img src="/manoj_polaroid_photo.png" alt="Route Map" className="profile-image"/>
           <p>Hey! My name is Manoj Kumar, and I live in Sydney, Australia. Nice to meet you :)
             In my 9-5, I have a full-time work in digital advertising & technology, and in my spare time I work on various interests like below:
           </p>
