@@ -87,12 +87,22 @@ const AboutPage = () => {
             <li>Also, launched <a href="https://fitnessleafai.com" target="_blank" rel="noopener noreferrer"> Fitness Leaf AI</a> - an AI enabled vegetarian recipe generator!</li>
             <li>Creator of the <a href="https://penrithpyrmontwalk.com.au" target="_blank" rel="noopener noreferrer"> Penrith Pyrmont Walk!</a></li>
             <li>Podcasting when time allows at <a href="https://manojspeaks.com" target="_blank" rel="noopener noreferrer"> Manoj Speaks</a></li>
-            <li>When I have much time, another podcast at <a href="https://randomstrangertalk.com" target="_blank" rel="noopener noreferrer"> Random Stranger Talk</a></li>
+            <li>Another podcast at <a href="https://randomstrangertalk.com" target="_blank" rel="noopener noreferrer"> Random Stranger Talk</a></li>
             <li>YouTube Vlogging with <a href="https://youtube.com/@checkoutaustralia" target="_blank" rel="noopener noreferrer"> Check Out Australia</a></li>
             <li>Blogging my thoughts at <a href="https://emanoj.com" target="_blank" rel="noopener noreferrer"> emanoj.com</a></li>
             <li>Published my first book! <a href="https://chesterthedino.com" target="_blank" rel="noopener noreferrer"> Chester, the purple dino! </a></li>
             <li>Tweeting away at <a href="https://x.com/emanoj_" target="_blank" rel="noopener noreferrer"> @emanoj_</a></li>
           </ol>
+
+          <p>
+          I extend my heartfelt thanks to you for visiting this website and checking out this new walking & fitness initiative! 
+          Your support motivates me to continue dreaming differently and creating unique products, services, initiative and events.
+          Looking forward to catching up with you on the day of the walk!
+          <br></br>
+          Cheers!
+          <br></br>
+          Manoj
+          </p>
 
 
         </div>
