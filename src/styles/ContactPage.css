@@ -1,0 +1,35 @@
+/* Centering content and setting image size */
+.contact-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .contact-image img {
+    width: 50%;
+    height: auto;
+  }
+  
+  .page {
+    max-width: 600px;
+    margin: 20px auto;
+  }
+  
+  h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  h4 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 1em;
+    margin-bottom: 10px;
+  }
+  
