@@ -210,6 +210,10 @@ body, html {
   color: white;
 }
 
+.about-page {
+  padding-top: 80px; /* Adjust the top padding to match your navigation bar height */
+}
+
 .accordion-item {
   margin-bottom: 10px;
 }

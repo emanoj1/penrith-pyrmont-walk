@@ -1,0 +1,27 @@
+/* Styling the About page */
+
+.about-page {
+    padding-top: 80px; /* Adjust based on your navigation bar height */
+  }
+  
+  .about-content-wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 50px; /* Adjust padding to ensure sufficient gap from the viewport edges */
+    text-align: left; /* Left-align text */
+  }
+  
+  .faq h4 {
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: #111827;
+  }
+  
+  .faq p {
+    margin-top: 10px;
+    font-size: 1em;
+    color: #333;
+  }
+  
+  /* Additional styling as needed */
+  
