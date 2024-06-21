@@ -74,8 +74,8 @@ const AboutPage = () => {
           </p>
 
           <h4>Who is the creator of this event?</h4>
-          <p>My name is Manoj Kumar, and I live in Sydney, Australia. 
-            He has a full-time work in digital technology, and in his spare time he works on various hobbies like below:
+          <p>Hey! My name is Manoj Kumar, and I live in Sydney, Australia. Nice to meet you :)
+            In my 9-5, I have a full-time work in digital advertising & technology, and in my spare time I work on various interests like below:
           </p>
           <br></br>
           <ol>
@@ -84,9 +84,10 @@ const AboutPage = () => {
             <li>Built an API based app, <a href="https://commuter.fyi" target="_blank" rel="noopener noreferrer"> commuter.fyi</a> - a world-wide public transport planner</li>
             <li>Runs a virtual & private travel assistant at <a href="https://okratravels.com.au" target="_blank" rel="noopener noreferrer"> Okra Travels</a></li>
             <li>Also, launched <a href="https://fitnessleafai.com" target="_blank" rel="noopener noreferrer"> Fitness Leaf AI</a> - an AI enabled vegetarian recipe generator!</li>
+            <li>Creator of the <a href="https://penrithpyrmontwalk.com.au" target="_blank" rel="noopener noreferrer"> Penrith Pyrmont Walk!</a></li>
             <li>Podcasting when time allows at <a href="https://manojspeaks.com" target="_blank" rel="noopener noreferrer"> Manoj Speaks</a></li>
             <li>When I have much time, another podcast at <a href="https://randomstrangertalk.com" target="_blank" rel="noopener noreferrer"> Random Stranger Talk</a></li>
-            <li>YouTube Vlogging with <a href="https://youtube.com/@checkoutaustralia" target="_blank" rel="noopener noreferrer"> Check Out Australia</a> - exploring Australia</li>
+            <li>YouTube Vlogging with <a href="https://youtube.com/@checkoutaustralia" target="_blank" rel="noopener noreferrer"> Check Out Australia</a></li>
             <li>Blogging my thoughts at <a href="https://emanoj.com" target="_blank" rel="noopener noreferrer"> emanoj.com</a></li>
             <li>Published my first book! <a href="https://chesterthedino.com" target="_blank" rel="noopener noreferrer"> Chester, the purple dino! </a></li>
             <li>Tweeting away at <a href="https://x.com/emanoj_" target="_blank" rel="noopener noreferrer"> @emanoj_</a></li>
