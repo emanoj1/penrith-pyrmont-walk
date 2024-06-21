@@ -33,12 +33,13 @@ const AboutPage = () => {
             On the first day, we will walk from Penrith to Parramatta, which is about 33 km and will take approximately 8 hours. 
             The next day, we will continue from Parramatta to Pyrmont, covering the remaining 22 km in about 5 hours. 
             Breaks, lunch, and photo opportunities will be included, making it a full and enjoyable experience!
-            </p>
+          </p>
 
           <h4>What is the walking route?</h4>
           <p>You can refer to the map on the homepage or search for Penrith Station to Pyrmont Station online to view the route. 
             In summary, we will be walking along the path adjacent to all the train stations on the way. 
-            This keeps us close to shops, people, and necessary facilities like restrooms.</p>
+            This keeps us close to shops, people, and necessary facilities like restrooms.
+          </p>
 
           <h4>Who can participate?</h4>
           <p>The walk is open to individuals over 18 years old who are medically fit. 
@@ -65,7 +66,7 @@ const AboutPage = () => {
           Currently, there are no plans for trophies due to cost constraints and the lack of a sponsor. 
           If your business can sponsor trophies, we’d love to feature your logo on our homepage for that year’s event! 
           Certificates are more affordable and something we might consider. We’ll keep you posted. If you have other ideas, feel free to email us!
-            </p>
+          </p>
 
           <h4>Who do I contact for further clarifications?</h4>
           <p>For more information, you can reach out to Manoj via the Contact page, and he will respond to your queries.</p>
