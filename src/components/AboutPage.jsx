@@ -6,11 +6,17 @@ const AboutPage = () => {
   return (
     <div className="about-page">
       <div className="about-content-wrapper">
+        <h1>"A journey of a thousand miles begins with a single step"</h1>
+        <h5>- from Dao De Jing</h5>
+        <br></br>
         <img src="/pyrmont-bridge-kevin-bosc-unsplash.jpg" alt="Pyrmont Bridge" className="pyrmont-bridge-image"/>
         <p>Pyrmont Bridge photo by <a href="https://unsplash.com/photos/high-rise-buildings-near-bridge-ax1KOmQHUZ0">Kevin Bosc</a> on Unsplash</p>
         <br></br>
         <h1>Welcome!</h1>
-        <p>We hope you can join us for this walking event! It's one of a kind and hopefully more people will join in the future!</p>
+        <p>
+          We hope you can join us for this walking event! It's one of a kind and hopefully more people will join in the future!
+          You are bound to have a lot of questions, and some of the most common ones are listed below. If you have more, contact us!
+        </p>
         <br></br>
         <h2>Frequently Asked Questions</h2>
         <div className="faq">
@@ -34,6 +40,15 @@ const AboutPage = () => {
             The next day, we will continue from Parramatta to Pyrmont, covering the remaining 22 km in about 5 hours. 
             Breaks, lunch, and photo opportunities will be included, making it a full and enjoyable experience!
           </p>
+          <ol>
+            <li>PENRITH: We meet at Penrith Train Station by 6:45 AM, at the main Station Street entrance & opposite Red Cow Hotel.</li>
+            <li>PENRITH: We COMMENCE the walk at sharp 7:00 AM.</li>
+            <li>PARRAMATTA: We FINISH the walk at Parramatta Train Station.</li>
+            <li>PARRAMATTA: Rest, eat, celebrate and return home!</li>
+            <li>PARRAMATTA: Meet at Parramatta Train station by 6:45 AM.</li>
+            <li>PARRAMATTA: We COMMENCE the walk at sharp 7:00 AM.</li>
+            <li>PYRMONT: Rest, eat, celebrate and return home!</li>
+          </ol>
 
           <h4>What is the walking route?</h4>
           <p>You can refer to the map on the homepage or search for Penrith Station to Pyrmont Station online to view the route. 
