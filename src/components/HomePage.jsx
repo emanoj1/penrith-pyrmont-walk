@@ -1,6 +1,10 @@
 import React from 'react';
+import CountdownTimer from './CountdownTimer';
 
 function HomePage() {
+    // Define the target date for the countdown (07 Sep 24 at 7 AM)
+    const targetDate = new Date('2024-09-07T07:00:00').getTime();
+
   return (
     <div className="centered-container">
       <section className="section1">
@@ -32,6 +36,12 @@ function HomePage() {
         </p>
         <img src="/penrith-pyrmont-walk-route-map.png" alt="Route Map" className="route-map"/>
       </section>
+      <div className="home-page">
+        
+        <h1>Days remaining</h1>
+        <CountdownTimer targetDate={targetDate} />
+      </div>
+
       <section className="section3">
         <h1>Join the walk!</h1>
         <br></br>
