@@ -6,6 +6,9 @@ const AboutPage = () => {
   return (
     <div className="about-page">
       <div className="about-content-wrapper">
+        <img src="/pyrmont-bridge-kevin-bosc-unsplash.jpg" alt="Pyrmont Bridge" className="pyrmont-bridge-image"/>
+        <p>Pyrmont Bridge photo by <a href="https://unsplash.com/photos/high-rise-buildings-near-bridge-ax1KOmQHUZ0">Kevin Bosc</a> on Unsplash</p>
+        <br></br>
         <h1>Welcome!</h1>
         <p>We hope you can join us for this walking event! It's one of a kind and hopefully more people will join in the future!</p>
         <br></br>
