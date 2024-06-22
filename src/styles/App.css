@@ -192,4 +192,8 @@ body, html {
   }
 }
 
+#newsletter-signup {
+  padding-bottom: 100px; /* Adjust this value as needed */
+}
+
 

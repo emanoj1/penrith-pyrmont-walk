@@ -1,9 +1,30 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import CountdownTimer from './CountdownTimer';
 
 function HomePage() {
     // Define the target date for the countdown (07 Sep 24 at 7 AM)
     const targetDate = new Date('2024-09-07T07:00:00').getTime();
+
+    useEffect(() => {
+      // Create the script element
+      const script = document.createElement('script');
+      script.src = "https://penrithpyrmontwalk.ck.page/dba68247b2/index.js";
+      script.async = true;
+      script.dataset.uid = "dba68247b2";
+  
+      // Append the script to the #newsletter-signup div
+      const newsletterDiv = document.getElementById('newsletter-signup');
+      if (newsletterDiv) {
+        newsletterDiv.appendChild(script);
+      }
+  
+      // Cleanup function to remove the script when component unmounts
+      return () => {
+        if (newsletterDiv && newsletterDiv.contains(script)) {
+          newsletterDiv.removeChild(script);
+        }
+      };
+    }, []);
 
   return (
     <div className="centered-container">
@@ -46,12 +67,15 @@ function HomePage() {
         <h1>Join the walk!</h1>
         <br></br>
       <div className="content-wrapper">
-          <p>If you are interested to undertake this mega-walk, please submit your interest and we will contact you with confirmations and next steps.
-          <span class="highlight-text"> You have to be over the age of 18 and medically fit to participate.</span>
+          <p>If you are interested to undertake this mega-walk, please use the form below and we will contact you with confirmations and next steps.
+          <span class="highlight-text"> You have to be over the age of 18 to subscribe and medically fit to participate.</span>
           </p>
       </div>
-        <a href="/contact">Register your interest!</a>
+        <a href="/contact">Any questions, contact us!</a>
       </section>
+      <div id="newsletter-signup">
+        {/* The newsletter script will load the form here */}
+      </div>
     </div>
   );
 }
