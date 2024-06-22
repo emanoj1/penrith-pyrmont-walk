@@ -49,7 +49,7 @@ function HomePage() {
           <p>If you are interested to undertake this mega-walk, please submit your interest and we will contact you with confirmations and next steps.
           <span class="highlight-text"> You have to be over the age of 18 and medically fit to participate.</span>
           </p>
-        </div>
+      </div>
         <a href="/contact">Register your interest!</a>
       </section>
     </div>
