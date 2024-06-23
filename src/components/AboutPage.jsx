@@ -32,7 +32,9 @@ const AboutPage = () => {
           <p>The walk covers a distance of 65 kilometers from Penrith to Pyrmont.</p>
 
           <h4>How long does it take to complete the walk?</h4>
-          <p>The walk takes approximately 15 hours non-stop, though this can vary depending on an individual’s pace.</p>
+          <p>The walk takes approximately 15 hours non-stop, though this can vary depending on an individual’s pace. But we are splitting the walk over 2 days, so hopefully the walk is manageable.
+            This is Year 1 of the walk, and we haven't attempted this mega walk before! We will see how it goes, and plan better for 2025.
+          </p>
 
           <h4>What is the plan to complete the walk?</h4>
           <p>Initially, the plan was to complete the walk in one day. However, after careful consideration, it was decided to split it over two days. 
@@ -40,11 +42,15 @@ const AboutPage = () => {
             The next day, we will continue from Parramatta to Pyrmont, covering the remaining 22 km in about 5 hours. 
             Breaks, lunch, and photo opportunities will be included, making it a full and enjoyable experience!
           </p>
+          <p>Day 1</p>
           <ol>
             <li>PENRITH: We meet at Penrith Train Station by 6:45 AM, at the main Station Street entrance & opposite Red Cow Hotel.</li>
             <li>PENRITH: We COMMENCE the walk at sharp 7:00 AM.</li>
             <li>PARRAMATTA: We FINISH the walk at Parramatta Train Station.</li>
             <li>PARRAMATTA: Rest, eat, celebrate and return home!</li>
+          </ol>
+          <p>Day 2</p>
+          <ol>
             <li>PARRAMATTA: Meet at Parramatta Train station by 6:45 AM.</li>
             <li>PARRAMATTA: We COMMENCE the walk at sharp 7:00 AM.</li>
             <li>PYRMONT: Rest, eat, celebrate and return home!</li>
@@ -110,7 +116,6 @@ const AboutPage = () => {
             <li>YouTube Vlogging with <a href="https://youtube.com/@checkoutaustralia" target="_blank" rel="noopener noreferrer"> Check Out Australia</a></li>
             <li>Blogging my thoughts at <a href="https://emanoj.com" target="_blank" rel="noopener noreferrer"> emanoj.com</a></li>
             <li>Published my first book! <a href="https://chesterthedino.com" target="_blank" rel="noopener noreferrer"> Chester, the purple dino! </a></li>
-            <li>Tweeting away at <a href="https://x.com/emanoj_" target="_blank" rel="noopener noreferrer"> @emanoj_</a></li>
           </ol>
 
           <p>
